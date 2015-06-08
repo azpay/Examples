@@ -1,0 +1,35 @@
+<transaction-request>
+    <version>1.0.0</version>
+    <verification>
+        <merchantId>1</merchantId>
+        <merchantKey>d41d8cd98f00b204e9800998ecf8427e</merchantKey>
+    </verification>
+    <boleto>
+        <order>
+            <reference>988AFE455281C31A</reference>
+            <totalAmount>10000</totalAmount>
+        </order>
+        <payment>
+            <acquirer>10</acquirer>
+            <expire>2015-09-24</expire>
+            <nrDocument>87654321</nrDocument>
+            <amount>10000</amount><!-- R$100,00 -->
+            <currency>986</currency>
+            <country>BRA</country>
+            <instructions>Não aceitar pagamento em cheques. \n Percentual Juros Dia: 1%. Percentual Multa: 1%.</instructions>
+        </payment>
+        <billing>
+            <customerIdentity>10</customerIdentity>
+            <name>Fulano de Tal</name>
+            <address>Av. República do Chile, 230</address>
+            <address2>16 Andar</address2>
+            <city>Rio de Janeiro</city>
+            <state>RJ</state>
+            <postalCode>20031170</postalCode>
+            <country>BR</country>
+            <phone>2140099400</phone>
+            <email>fulanodetal@email.com</email>
+        </billing>
+        <customField/>
+    </boleto>
+</transaction-request>

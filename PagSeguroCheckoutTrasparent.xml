@@ -1,0 +1,41 @@
+<transaction-request>
+    <version>1.0.0</version>
+    <verification>
+        <merchantId>1</merchantId>
+        <merchantKey>d41d8cd98f00b204e9800998ecf8427e</merchantKey>
+    </verification>
+    <pagseguro_checkout>
+        <order>
+            <reference>123456789</reference>
+            <totalAmount>4000</totalAmount>
+        </order>
+        <payment>
+            <method>1</method>
+            <amount>4000</amount>
+            <currency>986</currency>
+            <country>BRA</country>
+            <numberOfPayments>1</numberOfPayments>
+            <flag>visa</flag>
+            <cardHolder>Jose da Silva</cardHolder>
+            <cardNumber>4111111111111111</cardNumber>
+            <cardSecurityCode>123</cardSecurityCode>
+            <cardExpirationDate>203012</cardExpirationDate>
+        </payment>
+        <billing>
+            <customerIdentity>1</customerIdentity>
+            <name>Fulano de Tal</name>
+            <birthDate>12/12/1983</birthDate>
+            <address>Av. República do Chile, 230</address>
+            <address2>16 Andar</address2>
+            <city>Rio de Janeiro</city>
+            <state>RJ</state>
+            <postalCode>20031170</postalCode>
+            <country>BR</country>
+            <phone>2140099400</phone>
+            <email>c41338791388085796380@sandbox.pagseguro.com.br</email>
+<cpf>55555555555</cpf>
+        </billing>
+        <urlReturn>https://api.azpay.com.br/v1/returner/</urlReturn>
+        <customField/>
+    </pagseguro_checkout>
+</transaction-request>

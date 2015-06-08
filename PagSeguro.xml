@@ -1,0 +1,32 @@
+<transaction-request>
+    <version>1.0.0</version>
+    <verification>
+        <merchantId>1</merchantId>
+        <merchantKey>d41d8cd98f00b204e9800998ecf8427e</merchantKey>
+    </verification>
+    <pagseguro>
+        <order>
+            <reference>988AFE455281C31A</reference>
+            <totalAmount>4000</totalAmount>
+        </order>
+        <payment>
+            <amount>4000</amount>
+            <currency>986</currency>
+            <country>BRA</country>
+        </payment>
+        <billing>
+            <customerIdentity>1</customerIdentity>
+            <name>Fulano de Tal</name>
+            <address>Av. República do Chile, 230</address>
+            <address2>16 Andar</address2>
+            <city>Rio de Janeiro</city>
+            <state>RJ</state>
+            <postalCode>20031170</postalCode>
+            <country>BR</country>
+            <phone>2140099400</phone>
+            <email>fulanodetal@email.com</email>
+        </billing>
+        <urlReturn>https://api.azpay.com.br/v1/returner/</urlReturn>
+        <customField/>
+    </pagseguro>
+</transaction-request>

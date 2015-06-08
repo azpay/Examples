@@ -1,0 +1,65 @@
+<transaction-request>
+    <version>1.0.0</version>
+    <verification>
+        <merchantId>1</merchantId>
+        <merchantKey>d41d8cd98f00b204e9800998ecf8427e</merchantKey>
+    </verification>
+    <sale>
+        <order>
+            <reference>988AFE455281C31A</reference>
+            <totalAmount>20000</totalAmount>
+        </order>
+        <payment>
+            <acquirer>1</acquirer>
+            <method>1</method>
+            <amount>10000</amount>
+            <currency>986</currency>
+            <country>BRA</country>
+            <numberOfPayments>1</numberOfPayments>
+            <groupNumber>0</groupNumber>
+            <flag>visa</flag>
+            <cardHolder>Jose da Silva</cardHolder>
+            <cardNumber>5453010000066167</cardNumber>
+            <cardSecurityCode>123</cardSecurityCode>
+            <cardExpirationDate>201805</cardExpirationDate>
+            <saveCreditCard>true</saveCreditCard>
+            <generateToken>false</generateToken>
+            <departureTax>0</departureTax>
+            <softDescriptor></softDescriptor>
+        </payment>
+        <payment>
+            <acquirer>6</acquirer>
+            <method>1</method>
+            <amount>10000</amount>
+            <currency>986</currency>
+            <country>BRA</country>
+            <numberOfPayments>1</numberOfPayments>
+            <groupNumber>0</groupNumber>
+            <flag>visa</flag>
+            <cardHolder>Jose da Silva</cardHolder>
+            <cardNumber>4111111111111111</cardNumber>
+            <cardSecurityCode>123</cardSecurityCode>
+            <cardExpirationDate>201805</cardExpirationDate>
+            <saveCreditCard>true</saveCreditCard>
+            <generateToken>false</generateToken>
+            <departureTax>0</departureTax>
+            <softDescriptor></softDescriptor>
+        </payment>
+        <billing>
+            <customerIdentity>1</customerIdentity>
+            <name>Fulano de Tal</name>
+            <address>Av. República do Chile, 230</address>
+            <address2>16 Andar</address2>
+            <city>Rio de Janeiro</city>
+            <state>RJ</state>
+            <postalCode>20031170</postalCode>
+            <country>BR</country>
+            <phone>2140099400</phone>
+            <email>fulanodetal@email.com</email>
+        </billing>
+
+        <urlReturn>https://api.azpay.com.br/v1/returner</urlReturn>
+        <fraud>true</fraud>
+        <customField/>
+    </sale>
+</transaction-request>
