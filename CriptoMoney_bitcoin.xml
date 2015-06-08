@@ -2,7 +2,7 @@
     <version>1.0.0</version>
     <verification>
         <merchantId>1</merchantId>
-        <merchantKey>d41d8cd98f00b204e9800998ecf8427e</merchantKey>
+        <merchantKey>d41d8cd98f00b204e9800998ecf84</merchantKey>
     </verification>
     <snapcard>
         <order>
